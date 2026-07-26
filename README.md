@@ -2,6 +2,10 @@
 
 A simple to-do list web app built with HTML, CSS, and vanilla JavaScript. Tasks are saved in the browser's local storage, so your list persists across page reloads.
 
+## Screenshot
+
+![To-Do List App screenshot](images/screenshot.png)
+
 ## Features
 
 - Add new tasks
