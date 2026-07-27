@@ -1,10 +1,12 @@
 # To-Do List App
 
-A simple to-do list web app built with HTML, CSS, and vanilla JavaScript. Tasks are saved in the browser's local storage, so your list persists across page reloads.
+A simple, no-frills to-do list web app built from scratch with HTML, CSS, and vanilla JavaScript — no frameworks, no build tools. Add tasks, check them off, delete them, and your list is automatically saved in the browser's local storage, so it's still there the next time you open the page.
+
+This project was built as a practical exercise in core JavaScript fundamentals: DOM manipulation, event handling, and browser storage.
 
 ## Screenshot
 
-![To-Do List App screenshot](images/screenshot.png)
+![To-Do List App screenshot](images/Screenshot.png)
 
 ## Features
 
@@ -39,6 +41,10 @@ No build steps or dependencies required.
 └── images/       # Icons used in the UI
 ```
 
-## License
+## What I Learned
 
-This project is open source and available under the [MIT License](LICENSE).
+Building this project helped me practice:
+
+- **DOM manipulation** — creating and inserting elements dynamically with `createElement` and `appendChild` instead of hardcoding markup
+- **Event delegation** — using a single click listener on the task list to handle both completing and deleting tasks, based on which element (`<li>` or `<span>`) was actually clicked
+- **Persisting state with `localStorage`** — saving the task list on every change and restoring it on page load, so data survives a refresh without a backend
